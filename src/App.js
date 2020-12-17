@@ -2,6 +2,7 @@ import React from "react";
 import { Layout } from 'antd';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import MenuTop from './components/Menu';
+import Footery from './components/Footer';
 
 //Pages
 import Home from './pages/home';
@@ -20,7 +21,7 @@ export default function App() {
 		<Layout>
 			<Router>
 
-				<Header>
+				<Header style={{zIndex:1}}>
 					<MenuTop />
 				</Header>
 
@@ -38,7 +39,7 @@ export default function App() {
 						<Route path="/search" exact={true}>
 							<Search />
 						</Route>
-						
+
 						<Route path="/movie/:id" exact={true}>
 							<Movie />
 						</Route>
@@ -50,9 +51,8 @@ export default function App() {
 					</Switch>
 				</Content>
 
-				<Footer>
-					Footer here ....
-				</Footer>
+				<Footery />
+
 			</Router>
 		</Layout>
 	);

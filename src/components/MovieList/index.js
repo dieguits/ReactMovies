@@ -1,1 +1,1 @@
-export { defatul } from './MovieList';
+export { default } from './MovieList';
