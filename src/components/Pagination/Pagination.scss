@@ -1,0 +1,14 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px !important;
+
+    .rc-pagination-item {
+        border-radius: 10px !important;
+
+        &-link {
+            border-radius: 10px !important;
+        }
+    }
+}

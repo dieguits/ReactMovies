@@ -9598,7 +9598,7 @@ rc-notification@~4.5.2:
     rc-motion "^2.2.0"
     rc-util "^5.0.1"
 
-rc-pagination@~3.1.0:
+rc-pagination@^3.1.2, rc-pagination@~3.1.0:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/rc-pagination/-/rc-pagination-3.1.2.tgz#ab5eacd9c51f869e350d2245064babe91bc1f046"
   integrity sha512-KbJvkTvRiD51vTIAi0oTARPUHNb0iV6njbDBe8yLkc3PWYDJaszASfuss6YJ98EIxEeGzuEk6xsUAEKWRJgz2g==
