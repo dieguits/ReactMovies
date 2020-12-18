@@ -8,7 +8,7 @@ import Footery from './components/Footer';
 import Home from './pages/home';
 import NewMovies from './pages/new-movies';
 import Popular from './pages/popular';
-import Search from './pages/search';
+import Search from './pages/search/search';
 import Movie from './pages/movie';
 import Error404 from './pages/error404';
 
