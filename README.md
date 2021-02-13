@@ -2,7 +2,7 @@
 
 ###### This is a small project done in a ReactJs learning course that I am doing.
 
-Note: If you want to run the project go to the root folder and open a terminal an type yarn dev
+Note: If you want to run the project go to the root folder, open a terminal and type "yarn dev" to see how the project looks like
 
 - The images below is how the project looks like:
 
